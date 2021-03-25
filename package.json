@@ -1,0 +1,25 @@
+{
+  "name": "open-ports-check-action",
+  "version": "1.0.0",
+  "description": "Check port reachable or not",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nrukavkov/open-ports-check-action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nrukavkov/open-ports-check-action/issues"
+  },
+  "homepage": "https://github.com/nrukavkov/open-ports-check-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "@actions/github": "^4.0.0",
+    "is-port-reachable": "^3.0.0"
+  }
+}

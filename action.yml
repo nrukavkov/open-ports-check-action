@@ -1,0 +1,21 @@
+name: 'Check port'
+description: 'Check port is reachable'
+inputs:
+  port:
+    description: 'Port for checking'
+    required: true
+  host:
+    description: 'Port for checking'
+    default: 'localhost'
+  needFail:
+    description: 'Fail step if port is not reachable'
+    default: false
+  reverse:
+    description: 'Result will be true if port is not reachable.'
+    default: false
+outputs:
+  result:
+    description: 'Reachable or not'
+runs:
+  using: 'node12'
+  main: 'index.js'
