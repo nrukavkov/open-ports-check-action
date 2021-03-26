@@ -1,12 +1,12 @@
 # Port Reachable javascript action
 
-This action try to connect to port and return result.
+This action tries to connect to the port and return the result.
 
 ## Inputs
 
 ### `port`
 
-**Required** Connect to this port. Default `"World"`.
+**Required** Try to connect to this port or ports. 
 
 ### `host`
 
@@ -18,11 +18,11 @@ Pause (in milliseconds) before check. Default `0`.
 
 ### `reverse`
 
-Result will be true if port is not reachable. Default `"false"`.
+The result will be true if the port is not reachable. Default `"false"`.
 
 ### `needFail`
 
-Fail action if the result is not fulfilled . Default `"false"`.
+Fail action if the result is not fulfilled. Default `"false"`.
 
 ## Outputs
 
