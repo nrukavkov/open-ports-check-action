@@ -1,4 +1,4 @@
-# Action for cheching is opened port or not
+# Action for checking is opened port or not
 
 This action tries to connect to the port and return the result.
 
