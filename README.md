@@ -1,4 +1,4 @@
-# Port Reachable javascript action
+# Action for cheching is opened port or not
 
 This action tries to connect to the port and return the result.
 
