@@ -32,6 +32,8 @@ True or false
 
 ## Example usage
 
+### Fail a pipline if 80 or 443 is not opened. 
+
 ```yml
 uses: nrukavkov/open-ports-check-action@v1
 with:
@@ -40,4 +42,16 @@ with:
   pause: 1000
   needFail: 'true'
   reverse: 'false'
+```
+
+### Fail a pipline if one 80 or 443 is opened. 
+
+```yml
+uses: nrukavkov/open-ports-check-action@v1
+with:
+  port: 80, 443
+  host: 'yandex.ru'
+  pause: 1000
+  needFail: 'true'
+  reverse: 'true'
 ```
