@@ -28,7 +28,7 @@ Fail action if the result is not fulfilled. Default `"false"`.
 
 ### `result`
 
-True or false
+Return true if all ports are opened or not(for reverse=true) 
 
 ## Example usage
 
