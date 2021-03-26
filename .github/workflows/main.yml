@@ -18,6 +18,7 @@ jobs:
       - uses: nrukavkov/open-ports-check-action@v1
         with:
           port: 80, 443
+          pause: 1000
           host: 'google.com'
           needFail: ${{ matrix.needFail }}
           reverse: ${{ matrix.reverse }}

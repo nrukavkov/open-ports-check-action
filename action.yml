@@ -13,6 +13,9 @@ inputs:
   reverse:
     description: 'Result will be true if port is not reachable.'
     default: false
+  pause:
+    description: 'Pause in milliseconds before start checking'
+    default: 0
 outputs:
   result:
     description: 'Reachable or not'

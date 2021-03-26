@@ -12,6 +12,10 @@ This action try to connect to port and return result.
 
 Connect to this hostname. Default `"localhost"`.
 
+### `pause`
+
+Pause (in milliseconds) before check. Default `0`.
+
 ### `reverse`
 
 Result will be true if port is not reachable. Default `"false"`.
@@ -33,6 +37,7 @@ uses: nrukavkov/open-ports-check-action@v1
 with:
   port: 80, 443
   host: 'google.com'
+  pause: 1000
   needFail: 'true'
   reverse: 'false'
 ```
